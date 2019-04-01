@@ -1,5 +1,4 @@
-﻿
-public interface IObtainable
+﻿public interface IObtainable
 {
 	string ID { get; }
 	string DisplayName { get; }
