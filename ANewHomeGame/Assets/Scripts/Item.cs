@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public abstract class Item : ScriptableObject, IObtainable
+public abstract class Item : ScriptableObject, IObtainable, IInteractable
 {
 	[SerializeField] private string id;
 	[SerializeField] private string displayName;
@@ -16,4 +16,6 @@ public abstract class Item : ScriptableObject, IObtainable
 	public string Description { get { return description; } }
 
 	public abstract void PickUp();
+
+	public abstract bool Use(object interactor);
 }
