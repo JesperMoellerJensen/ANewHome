@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public abstract class Item : ScriptableObject, IObtainable, IInteractable
+public abstract class Item : ScriptableObject, IObtainable
 {
 	[SerializeField] private string id;
 	[SerializeField] private string displayName;

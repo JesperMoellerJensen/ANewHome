@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58eb9a79400e5f347ab1d500945a5035, type: 3}
-  m_Name: HealthPotion
+  m_Script: {fileID: 11500000, guid: db3ed4163a6c0244cbedc60a283bc6cd, type: 3}
+  m_Name: LesserHealthPotion
   m_EditorClassIdentifier: 
-  id: 
+  id: 0000100A
   displayName: 
   description: 
+  HealingAmount: 25
